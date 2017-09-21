@@ -1,0 +1,56 @@
+.flex-options {
+    display: flex;
+    height: 100%;
+
+}
+
+
+.flex-options .option-item {
+    background: yellow;
+    width: 250px;
+    float: left;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex-options .option-about {
+   display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: flex-end;
+}
+
+.flex-options .option-about .blue {
+    width: 100%;
+    background: blue;
+    height: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.flex-options .option-about .white {
+    background: white;
+    align-self: stretch;
+}
+
+
+.flex-options .option-about .red {
+    width: 300px;
+    height: 456px;
+    background: red;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flex-options .option-about .green {
+    height: 70px;
+    width: 100%;
+    background: green;
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
